@@ -28,8 +28,8 @@ router.get("/") {
     next()
 }
 
-// Use port 8090 unless overridden by environment variable
-let port = Int(ProcessInfo.processInfo.environment["PORT"] ?? "8090") ?? 8090
+// Use port 8080 unless overridden by environment variable
+let port = Int(ProcessInfo.processInfo.environment["PORT"] ?? "8080") ?? 8080
 
 Kitura.addHTTPServer(onPort: port, with: router)
 Kitura.run()
