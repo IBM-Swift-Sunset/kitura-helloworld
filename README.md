@@ -20,8 +20,8 @@ Run executable
 $ .build/debug/kitura-helloworld
  VERBOSE: init() Router.swift line 55 - Router initialized
  VERBOSE: run() Kitura.swift line 71 - Starting Kitura framework...
- VERBOSE: run() Kitura.swift line 73 - Starting an HTTP Server on port 8090...
- INFO: listen(socket:port:) HTTPServer.swift line 136 - Listening on port 8090
+ VERBOSE: run() Kitura.swift line 73 - Starting an HTTP Server on port 8080...
+ INFO: listen(socket:port:) HTTPServer.swift line 136 - Listening on port 8080
 ```
 
 ## Deploy to Bluemix
